@@ -58,7 +58,8 @@
 ## Announcement
 - Overview of Deep Learning, Dimension Reduction, Model Selection,XGBoot topics will be under **Deep Learning Repo** !
 - Convolutional Neural Networks (CNN) will be under **Artificial Intelligence Repo (AI)** !
-- Computer Vision, Self Driving Autonomous Repos will be also shared !
+- **Computer Vision** , **Self Driving Autonomous** Repos will be also shared !
+- **Kubernates** will be also shared !
 
 ## About the Repo
 - This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of intelligent systems basis .
