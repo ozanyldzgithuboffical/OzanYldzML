@@ -4,6 +4,9 @@
 
 1 **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
 
+## Preprocessing in ML
+- Data preprocessing is an integral step in **Machine Learning** as the quality of data and the useful information that can be derived from it directly affects the ability of our model to learn; therefore, it is extremely important that we preprocess our data before feeding it into our model.
+
 ## Source of Data
 
 - It can be any unprocessed fact, value, text, sound or picture that is not being interpreted and analyzed. 
@@ -37,23 +40,24 @@
 - Pandas library is used to create data frames.
 
 ## Feature Scaling
-- Sometimes our data set features values can be unproportional
+- Sometimes our data set features values can be unproportional in terms of their lower and upper bound values or mean values.Plus,such machine learning algorithms have weakness for such cases,for instance **support vector machine (SVM)** . There are two known methods to tune the record values of different features to make the prediction in a healthy way.
+-Every data set does not require normalization only for the data sets with which features have different range.
+1.**Normalization**
+-Normalization is a technique often applied as part of data preparation for machine learning. The goal of normalization is to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values.
+- z=(x-min(x))/(max(x)-min(x) where x is the value of the data set record.
+- Drawback of the normalization is,if there is a very big value in data set,then other datas can be reduced to 0 except the normalized data becomes 1.Because of this sometimes normalization can lead to lose the data in feature.
 
-@Controller
-public class FormController {
-//to-do smth
-}
-```
-- @RequestMapping annotation is used to handle requests.Return value is the name of the jsp file declared in view resolver in servlet.xml
+2. **Standardization**
+Standardization looks for the deviation from the mean value without losing the value importance.
 
-```java
-@RequestMapping("/")
-	public String showDefaultForm() {
-		return "main-menu";
-	}
-```
-## About the Project
-- It basically takes an input from the form.The training aim is to reach the correct controller's method.
+## Announcement
+- Overview of Deep Learning, **Dimension Reduction** , **Model Selection** , **XGBoot** topics will be under **Deep Learning Repo** !
+- **Convolutional Neural Networks (CNN)** will be under **Artificial Intelligence Repo (AI)** !
+- **Computer Vision** , **Self Driving Autonomous** with Tensorflow-Keras & Computer Vision & Deep Learning Repos will be also shared !
+- **Kubernates** will be also shared !
+
+## About the Repo
+- This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of intelligent systems basis .
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -61,6 +65,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate. Thanks.
 
 **OZAN YILDIZ**
+-Computer Engineer at HAVELSAN Ankara/Turkey 
+**Linkedin**
+[Ozan YILDIZ Linkedin](https://www.linkedin.com/in/ozan-yildiz-b8137a173/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
