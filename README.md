@@ -2,7 +2,7 @@
 
 # Machine Learning Repo
 
-1 **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
+- **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
 
 ## Multiple Linear Regression
 - If linear regression is just the plotting of a relationship between an independent variable (X) and a dependent variable (Y), you may be able to guess that **multivariate/multiple linear regression** is just a linear regression carried out on more than one independent variable.
