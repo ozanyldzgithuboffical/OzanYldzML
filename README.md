@@ -58,8 +58,10 @@
 ## Announcement
 - Overview of Deep Learning, **Dimension Reduction** , **Model Selection** , **XGBoot** topics will be under **Deep Learning Repo** !
 - **Convolutional Neural Networks (CNN)** will be under **Artificial Intelligence Repo (AI)** !
-- **Computer Vision** , **Self Driving Autonomous** with Tensorflow-Keras & Computer Vision & Deep Learning Repos will be also shared !
-- **Kubernates** will be also shared !
+- **Computer Vision** , **Self Autonomous Driving** with Tensorflow-Keras & Computer Vision & Deep Learning Repos will be also shared !
+- **Kubernates** repo will be also shared !
+- You can also check out Java Spring Framework series which will include Spring Core,Spring MVC,Spring Boot repos in [JavaSpring] (https://github.com/ozanyldzgithuboffical/Spring)
+- **Spring Microservices with Spring Cloud** repo will be also available later !
 
 ## About the Repo
 - This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of intelligent systems basis .
