@@ -24,7 +24,7 @@
 ```
 ## Dummy Variable Trap
 - For transforming categorical attribute to numerical attribute, we can use label encoding procedure (label encoding assigns a unique integer to each category of data). But this procedure is not alone that much suitable, hence, One hot encoding is used in regression models following label encoding. This enables us to create new attributes according to the number of classes present in the categorical attribute i.e if there are n number of categories in categorical attribute, n new attributes will be created. These attributes created are called **Dummy Variables**. Hence, dummy variables are **“proxy”** variables for categorical data in regression models.
-- These dummy variables will be created with one hot encoding and each attribute will have value either 0 or 1, representing presence or absence of that attribute.
+- These dummy variables will be created with **one hot encoding** and each attribute will have value either 0 or 1, representing presence or absence of that attribute.
 
 ## Backward Elimination Algorithm
 - Multiple linear regression model implementation with automated backward elimination (with p-value and adjusted r-squared) in Python and R for showing the relationship among profit and types of expenditures and the states.
