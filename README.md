@@ -7,6 +7,23 @@
 ## Preprocessing in ML
 - Data preprocessing is an integral step in **Machine Learning** as the quality of data and the useful information that can be derived from it directly affects the ability of our model to learn; therefore, it is extremely important that we preprocess our data before feeding it into our model.
 
+- In this example,dataset is scaled with by takin their mean strategy.
+- **Example Code**
+ ```python
+ #data set
+ mydata=np.array([[2,-1.2,5,6],
+                 [3,2,-5.2,5],
+                 [4,1,2,7,6],
+                 [5,-1.5,-1.6,2]])
+
+#Data set is scaled
+stdData=preprocessing.scale(mydata)
+#Mean of the data set is calculated
+print("\nMean =", stdData.mean(axis=0))
+#Standard deviation of the data is calculated
+print("Std deviation =", stdData.std(axis=0))
+ ```
+
 ## Source of Data
 
 - It can be any unprocessed fact, value, text, sound or picture that is not being interpreted and analyzed. 
