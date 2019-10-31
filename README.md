@@ -38,34 +38,34 @@
 5. Fit a model with the new set of features, and go to step 3.
 - **Example Code**
 ```python
- #take length column index starts from zero
- #this time we predict length by the other features
-length=latestDataFrame.iloc[:,3:4].values
-leftside_features=latestDataFrame.iloc[:,:3]
-rightside_features=latestDataFrame.iloc[:,4:]
-ultimatedatafeatures=pd.concat([leftside_features,rightside_features],axis=1)
-#now train and predictable data is ready let's train
-X_Train,X_Test,Y_Train,Y_Test=train_test_split(ultimatedatafeatures,length,test_size=0.33,random_state=0)
+    #take length column index starts from zero
+    #this time we predict length by the other features
+    length=latestDataFrame.iloc[:,3:4].values
+    leftside_features=latestDataFrame.iloc[:,:3]
+    rightside_features=latestDataFrame.iloc[:,4:]
+    ultimatedatafeatures=pd.concat([leftside_features,rightside_features],axis=1)
+    #now train and predictable data is ready let's train
+    X_Train,X_Test,Y_Train,Y_Test=train_test_split(ultimatedatafeatures,length,test_size=0.33,random_state=0)
 
-#create instance of LinearRegression
-lreg2=LinearRegression()
-#train data
-lreg2.fit(X_Train,Y_Train)
-#then predict the trained data with 1 of 3 test data
-y2_predict=lreg2.predict(X_Test)
-#add the coefficient B0
-data_with_beta_coefficient=np.append(arr=np.ones((22,1)).astype(int),values=ultimatedatafeatures,axis=1)
-#data set to be extracted later with some columns
-dataset_extracted=ultimatedatafeatures.iloc[:,[0,1,2,3,4,5]].values
-#lets measure the effect of the ind. vars on dependent var:length
-effect_stats=sm.OLS(endog=length,exog=dataset_extracted).fit()
-#print(effect_stats.summary())
-#according to the table x5 will be eliminated since p value=0.05 selected
-dataset_extracted=ultimatedatafeatures.iloc[:,[0,1,2,3,5]].values
-#lets measure the effect of the ind. vars on dependent var:length
-effect_stats=sm.OLS(endog=length,exog=dataset_extracted).fit()
-print(effect_stats.summary())
-#now we can stop machine learning modelling
+    #create instance of LinearRegression
+    lreg2=LinearRegression()
+    #train data
+    lreg2.fit(X_Train,Y_Train)
+    #then predict the trained data with 1 of 3 test data
+    y2_predict=lreg2.predict(X_Test)
+    #add the coefficient B0
+    data_with_beta_coefficient=np.append(arr=np.ones((22,1)).astype(int),values=ultimatedatafeatures,axis=1)
+    #data set to be extracted later with some columns
+    dataset_extracted=ultimatedatafeatures.iloc[:,[0,1,2,3,4,5]].values
+    #lets measure the effect of the ind. vars on dependent var:length
+    effect_stats=sm.OLS(endog=length,exog=dataset_extracted).fit()
+    #print(effect_stats.summary())
+    #according to the table x5 will be eliminated since p value=0.05 selected
+    dataset_extracted=ultimatedatafeatures.iloc[:,[0,1,2,3,5]].values
+    #lets measure the effect of the ind. vars on dependent var:length
+    effect_stats=sm.OLS(endog=length,exog=dataset_extracted).fit()
+    print(effect_stats.summary())
+    #now we can stop machine learning modelling
 ```
 - Here we use here **Ordinary Least Squares (OLS)** to see the value is equal or smaller than **p-value**
 - For more information about [OLS](https://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.OLS.html)
