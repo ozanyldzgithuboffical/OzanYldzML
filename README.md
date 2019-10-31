@@ -31,7 +31,7 @@
    - Decision Tree Classifier
    - Random Forest Classifier
    - Tuning on K-NN,SVM,Random Forest Classifiers
-   - Evaluation Metrics for Classification Algorithms (Specificity,Recall(Sensivity,True Positive Rate),ROC Area,AUC Area)
+   - Evaluation Metrics for Classification Algorithms **(Specificity,Recall(Sensivity,True Positive Rate),ROC Area,AUC Area)**
   5. **Clustring**
   - Overview of Clustring
   - K-Means Algorithm
