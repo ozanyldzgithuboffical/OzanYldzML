@@ -4,6 +4,41 @@
 
 1 **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
 
+## Missing Values
+1. Sometimes our dataset can consist of missing values.In such conditions there are some methods to eliminate this factor.These are called **Imputation Methods**.Let's tell about some of them
+- **Listweise Deletion**
+ * Only data having missing records deleted simply.
+- **Pairweise Deletion**
+ * Only data entry deleted which has mising value on any feature/variable/column
+- **Regression Imputation**
+ * Missing value marked is copied with the older entry
+- **Sthocastic Imputation**
+ * A statistical distribution obtained over a data set and this distribution is used as a connection to fill the missing value record.
+
+- **Example Code**
+ ```python
+#reading csv
+data=pd.read_csv('missingdata.csv')
+#print(data)
+
+#extracting length data frame of age & gender
+#dataFrame1=data[['age','gender']]
+
+
+imputerObj=Imputer(missing_values='NaN',strategy='mean',axis=0)
+
+#We get the numerical columns as a dataframe with only values
+digitalData=data.iloc[:,1:4].values
+#print(digitalData)
+
+#statistics is computed during fit to prevent data prevention
+imputerObj=imputerObj.fit(digitalData[:,0:4])
+
+#computed data is transformed and ready to be used in test data
+digitalData[:,0:4]=imputerObj.transform(digitalData[:,0:4])
+print(digitalData)
+```
+
 ## Data Frame Extraction
 - In machine learning we work on datasets.These datasets consists of features that we extract.
 - In some cases we could not find any feature or an input that is about un-supervised learning topic.
@@ -40,40 +75,6 @@ for model learning as independent variables and some others for dependent variab
 - To convert the nominal and ordinal data types into measurable data types we can use some methods like Label Encoding,One-Hot Encoding.
 - Numerical data types are divided into two major group: rational and interval data types.Values of these data types can be continuous like temperature sensor values etc.
 
-## Missing Values
-1. Sometimes our dataset can consist of missing values.In such conditions there are some methods to eliminate this factor.These are called **Imputation Methods**.Let's tell about some of them
-- **Listweise Deletion**
- * Only data having missing records deleted simply.
-- **Pairweise Deletion**
- * Only data entry deleted which has mising value on any feature/variable/column
-- **Regression Imputation**
- * Missing value marked is copied with the older entry
-- **Sthocastic Imputation**
- * A statistical distribution obtained over a data set and this distribution is used as a connection to fill the missing value record.
-
-- **Example Code**
- ```python
-#reading csv
-data=pd.read_csv('missingdata.csv')
-#print(data)
-
-#extracting length data frame of age & gender
-#dataFrame1=data[['age','gender']]
-
-
-imputerObj=Imputer(missing_values='NaN',strategy='mean',axis=0)
-
-#We get the numerical columns as a dataframe with only values
-digitalData=data.iloc[:,1:4].values
-#print(digitalData)
-
-#statistics is computed during fit to prevent data prevention
-imputerObj=imputerObj.fit(digitalData[:,0:4])
-
-#computed data is transformed and ready to be used in test data
-digitalData[:,0:4]=imputerObj.transform(digitalData[:,0:4])
-print(digitalData)
-```
  
 ## Data Frames
 - Data Frames are the part of data set.You can make a partition,take some entries of the data set.
