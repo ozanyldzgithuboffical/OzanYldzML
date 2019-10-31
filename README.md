@@ -10,6 +10,18 @@
 - These datasets are also a data frame themselves and we can take a small part of them.For instance we can use some part of the data
 for model learning as independent variables and some others for dependent variables to predicted.
 - Pandas library helps us to extract data frames.
+- **Example Code**
+ ```python
+     #reading csv
+    data=pd.read_csv('data.csv')
+    print(data)
+
+    #extracting length data frame of age & gender
+    dataFrame1=data[['age','gender']]
+
+    #primting data frame
+    print(dataFrame1)
+ ```
 
 ## Source of Data
 
