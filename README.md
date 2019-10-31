@@ -30,7 +30,7 @@
 
 - Generally, Data scientists choose as an odd number if the number of classes is even. You can also check by generating the model on different values of k and check their performance. You can also try Elbow method here.
 
-## Distance Calculation Types
+## Distance Metric Types
 - There are different distance calculation theorems that you can apply on K-NN classifier.
 - **Metrics intended for real-valued vector spaces:**
 
