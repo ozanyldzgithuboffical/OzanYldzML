@@ -40,12 +40,12 @@
   - Association Rule Mining
   - Apriori Algorithm
   - Eclat Algorithm
- 6. **Reinforced Learning**
+  6. **Reinforced Learning**
   - Overview of Reinforced Learning
   - A/B Test
- 7. **Upper Confidence Bound Approach**
- 8. **Thompson Sampling**
- 9. **Natural Language Processing (NLP)**
+  7. **Upper Confidence Bound Approach**
+  8. **Thompson Sampling**
+  9. **Natural Language Processing (NLP)**
   - Enterance to DDI World
   - Sparce Matrix & Spelling Signs
   - Big &.Small Letters
@@ -54,7 +54,6 @@
   - CounterVectorizer
   - Classification
   
-
 ## Announcement
 - Overview of Deep Learning, **Dimension Reduction** , **Model Selection** , **XGBoot** topics will be under **Deep Learning Repo** !
 - **Convolutional Neural Networks (CNN)** will be under **Artificial Intelligence Repo (AI)** !
