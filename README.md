@@ -65,7 +65,7 @@
 - **Spring Microservices with Spring Cloud** repo will be also available later !
 
 ## About the Repo
-- This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of intelligent systems basis .
+- This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of machine learning and intelligent systems basis .
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
