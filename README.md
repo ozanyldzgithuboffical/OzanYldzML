@@ -68,7 +68,7 @@ print(effect_stats.summary())
 #now we can stop machine learning modelling
 ```
 - Here we use here **Ordinary Least Squares (OLS)** to see the value is equal or smaller than **p-value**
-- For more information about [OLS] (https://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.OLS.html)
+- For more information about [OLS](https://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.OLS.html)
 
 ## Data Frame Concatanation
 - Data frames are the any part of the data set.We sometimes need to make some preprocessing on the specific features.
