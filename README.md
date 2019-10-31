@@ -60,7 +60,7 @@
 - **Convolutional Neural Networks (CNN)** will be under **Artificial Intelligence Repo (AI)** !
 - **Computer Vision** , **Self Autonomous Driving** with Tensorflow-Keras & Computer Vision & Deep Learning Repos will be also shared !
 - **Kubernates** repo will be also shared !
-- You can also check out Java Spring Framework series which will include Spring Core,Spring MVC,Spring Boot repos in [JavaSpring] (https://github.com/ozanyldzgithuboffical/Spring)
+- You can also check out Java Spring Framework series which will include **Spring Core,Spring MVC,Spring Boot** repo in [JavaSpring (https://github.com/ozanyldzgithuboffical/Spring)
 - **Spring Microservices with Spring Cloud** repo will be also available later !
 
 ## About the Repo
