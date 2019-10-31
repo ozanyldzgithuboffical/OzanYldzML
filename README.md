@@ -9,9 +9,9 @@
 
 - For instance you have a dataset and a country column/feature which has to many countries.You can convert this nominal feature into numerical form that machine learning algorithm can understand.
 ----Country----
-**Turkey--------------1**
-**Germany-------------2**
-**Holland--------------3** etc
+- **Turkey =>>>>>1**
+- **Germany =>>>>>2**
+- **Holland =>>>>>3**
 
 - **Example Code**
 ```python
