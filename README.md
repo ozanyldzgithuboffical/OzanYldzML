@@ -20,6 +20,15 @@
 - Python sklearn learn library we use **StandardScaler** for standardization
 - Look for the details about [StandardScaler] (https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
 
+- **Example Code**
+```python
+    #Apply standardization to train first create instance from StandardScaler
+    stdScaler=StandardScaler()
+    #fit and transform the standardization
+    dependentTrain=stdScaler.fit_transform(dependentTrain)
+    dependentTest=stdScaler.fit_transform(dependentTest)
+```
+
 ## Source of Data
 
 - It can be any unprocessed fact, value, text, sound or picture that is not being interpreted and analyzed. 
