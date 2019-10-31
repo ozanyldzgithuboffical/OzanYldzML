@@ -5,7 +5,7 @@
 1 **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
 ## Iloc Usage
 - Iloc is pandas dataframe library to slice the data set.You can select row and column range to extract the data set to sub dataframe.
-- For more information,view [iloc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html)
+- For more information: [iloc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html)
 - **Example Code**
 ```python
     #reading csv
