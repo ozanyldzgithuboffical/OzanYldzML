@@ -14,12 +14,6 @@
 - **CART** algorithm uses the **GINI** index, where as **ID3** algorithm uses **Entropy** & **Information Gain(IG)** where it looks for the change in entropy from before to after when data set is splitted.
 - **Entropy** measures im/purity of the data points.
 
-## Terms of Algorithm
-- **Kernel:** The function used to map a lower dimensional data into a higher dimensional data.There are different kernel options.Default is linear.You can use also **rbf (Radial Basis Function)**,**Gaussian**,**Polynomial** etc.
-- **Hyper Plane:** In SVM this is basically the separation line between the data classes. Although in SVR we are going to define it as the line that will will help us predict the continuous value or target value
-- **Boundary Line:** In SVM there are two lines other than Hyper Plane which creates a margin . The support vectors can be on the Boundary lines or outside it. This boundary line separates the two classes. In SVR the concept is same.
-- **Support Vectors:** This are the data points which are closest to the boundary. The distance of the points is minimum or least.
-
 ## Implementation Phase
 - We first split our test and train data.Then we fit the model over X to Y.
 - Than,we predict over our test data set and compare with the actual y (class) values 
