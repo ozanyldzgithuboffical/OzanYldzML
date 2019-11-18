@@ -33,7 +33,7 @@
 for model learning as independent variables and some others for dependent variables to predicted.
 - Pandas library helps us to extract data frames.
 
-## Source of Data
+## Source of Data 
 
 - It can be any unprocessed fact, value, text, sound or picture that is not being interpreted and analyzed. 
 - Data is the most important part of all Data Analytics, Machine Learning, Artificial Intelligence. Without data, we can’t train any model and all modern research and automation will go vain. 
