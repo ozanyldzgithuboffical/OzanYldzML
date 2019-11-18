@@ -7,7 +7,28 @@
 ## ML Metrics for Algorithm Evaluation
 - You can check out via:
 (ML Measurement Metrics): [https://medium.com/thalus-ai/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b]
+- Here is an example of how to view the measurement results:
+```python
+        #start linear regression
+        #x_train=predicted values ,y_train=real values
+        lr=LinearRegression()
+        lr.fit(months,salescounts)
+        predict=lr.predict(months)
 
+
+        #precision
+        print("Precision:")
+        print(precision_score(salescounts,predict))
+        #recall
+        print("Recall:")
+        print(recall_score(salescounts,predict))
+        #f1 score
+        print("F1 Score:")
+        print(f1_score(salescounts,predict))
+        #confusion matrix
+        print("Confusion Matrix:")
+        print(confusion_matrix(salescounts,predict))
+```
 ## Data Frame Concatanation
 - Data frames are the any part of the data set.We sometimes need to make some preprocessing on the specific features.
 - After the process,the dataframes should be concataned to be used as a model in learning process.
