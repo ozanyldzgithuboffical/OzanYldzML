@@ -4,6 +4,13 @@
 
 1 **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
 
+## Pruning
+- Pruning is a technique to reduce the true error of the classification.
+- To improve the quality of the classification and to avoid either over/underfitting sometimes we need pruning
+- **Horizontal Effect Problem** is the most known problem which describes that it is hard to tell the decision algorithm should stop since there may be some additional nodes which can give extra information.
+- Common strategy is to grow the tree untill all nodes should have a couple of instances.Then we can start pruning that deletes the some of the nodes which reduces the quality of classification and has no additional information.
+-There are two main category of the pruning:Pre-pruning,post-pruning respectively.In pre-pruning we stop the algorithm before it classifies the all information and we prune it.Post-pruning is vice-versa.
+
 ## One-Hot-Encoding
 - Categorical data are commonplace in many Data Science and Machine Learning problems but are usually more challenging to deal with than numerical data.
 -One of the most common ways to make this transformation is to **one-hot encode** the categorical features, especially when there does not exist a natural ordering between the categories (e.g. a feature ‘City’ with names of cities such as ‘London’, ‘Lisbon’, ‘Berlin’, etc.). For each unique value of a feature (say, ‘London’) one column is created (say, ‘City_London’) where the value is 1 if for that instance the original feature takes that value and 0 otherwise.
