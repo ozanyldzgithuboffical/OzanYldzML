@@ -6,7 +6,7 @@
 
 ## ML Metrics for Algorithm Evaluation
 - You can check out via:
-(ML Measurement Metrics)[https://medium.com/thalus-ai/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b]
+(ML Measurement Metrics): [https://medium.com/thalus-ai/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b]
 
 ## Data Frame Concatanation
 - Data frames are the any part of the data set.We sometimes need to make some preprocessing on the specific features.
