@@ -9,7 +9,7 @@
 - To improve the quality of the classification and to avoid either over/underfitting sometimes we need pruning
 - **Horizontal Effect Problem** is the most known problem which describes that it is hard to tell the decision algorithm should stop since there may be some additional nodes which can give extra information.
 - Common strategy is to grow the tree untill all nodes should have a couple of instances.Then we can start pruning that deletes the some of the nodes which reduces the quality of classification and has no additional information.
--There are two main category of the pruning:Pre-pruning,post-pruning respectively.In pre-pruning we stop the algorithm before it classifies the all information and we prune it.Post-pruning is vice-versa.
+-There are two main category of the pruning:**Pre-pruning,post-pruning** respectively.In pre-pruning we stop the algorithm before it classifies the all information and we prune it.Post-pruning is vice-versa.
 
 ## One-Hot-Encoding
 - Categorical data are commonplace in many Data Science and Machine Learning problems but are usually more challenging to deal with than numerical data.
