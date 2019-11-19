@@ -4,6 +4,22 @@
 
 1 **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
 
+## Hierarhical Clustring
+- Hierarhical clustring is one of the clustring algorithm has two main approaches:
+1. **Agglomerative Clustring**
+2. **Divisive Clustring**
+
+- **Agglomerative Clustring** is bottom-up approach that every data point is a cluster and in each time after the distance calculation
+,the neighbour clusters are joined until a single cluster left.**Divisive Clustering** is the vice versa
+
+- Here distance calculation between clusters can be calculated in different ways:
+1.**By nearside closed clusters**
+2.**By farside clusters**
+3.**By average**
+4.**By ward using **WCSS**
+
+- Here distance can between data points can be calculated according to the K-means distance calculations such as **minkowski,euclidean** etc.
+
 ## Pruning
 - Pruning is a technique to reduce the true error of the classification.
 - To improve the quality of the classification and to avoid either over/underfitting sometimes we need pruning
