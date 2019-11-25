@@ -4,12 +4,8 @@
 
 1 **Machine Learning (ML)** is defined as the use algorithms and computational statistics to learn from data without being explicitly programmed. It is a subsection of the artificial intelligence domain within computer science.
 
-## Pruning
-- Pruning is a technique to reduce the true error of the classification.
-- To improve the quality of the classification and to avoid either over/underfitting sometimes we need pruning
-- **Horizontal Effect Problem** is the most known problem which describes that it is hard to tell the decision algorithm should stop since there may be some additional nodes which can give extra information.
-- Common strategy is to grow the tree untill all nodes should have a couple of instances.Then we can start pruning that deletes the some of the nodes which reduces the quality of classification and has no additional information.
--There are two main category of the pruning:**Pre-pruning,post-pruning** respectively.In pre-pruning we stop the algorithm before it classifies the all information and we prune it.Post-pruning is vice-versa.
+## Multi-Armed Bandit Problem
+- Multi-armed Bandit is synonymous to a slot machine with many arms. Each action selection is like a play of one of the slot machine’s levers, and the rewards are the payoffs for hitting the jackpot. Through repeated action selections you are to maximize your winnings by concentrating your actions on the best levers. Each machine provides a different reward from a probability distribution over mean reward specific to the machine. Without knowing these probabilities, the gambler has to maximize the sum of reward earned through a sequence of arms pull. If you maintain estimates of the action values, then at any time step there is at least one action whose estimated value is greatest. We call this a greedy action. The analogy to this problem can be advertisement displayed whenever the user visits a webpage. Arms are ads displayed to the users each time they connect to a web page. Each time a user connects to the page makes around. At each round, we choose one ad to display to the user. At each round n, ad i gives reward ri(n) ε {0, 1}: ri(n)=1 if the user clicked on the ad i, 0 if the user didn’t. The goal of the algorithm will be to maximize the reward. Another analogy is that of a doctor choosing between experimental treatments for a series of seriously ill patients. Each action selection is a treatment selection, and each reward is the survival or well-being of the patient.
 
 ## One-Hot-Encoding
 - Categorical data are commonplace in many Data Science and Machine Learning problems but are usually more challenging to deal with than numerical data.
