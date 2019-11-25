@@ -7,6 +7,30 @@
 ## Multi-Armed Bandit Problem
 - Multi-armed Bandit is synonymous to a slot machine with many arms. Each action selection is like a play of one of the slot machine’s levers, and the rewards are the payoffs for hitting the jackpot. Through repeated action selections you are to maximize your winnings by concentrating your actions on the best levers. Each machine provides a different reward from a probability distribution over mean reward specific to the machine. Without knowing these probabilities, the gambler has to maximize the sum of reward earned through a sequence of arms pull. If you maintain estimates of the action values, then at any time step there is at least one action whose estimated value is greatest. We call this a greedy action. The analogy to this problem can be advertisement displayed whenever the user visits a webpage. Arms are ads displayed to the users each time they connect to a web page. Each time a user connects to the page makes around. At each round, we choose one ad to display to the user. At each round n, ad i gives reward ri(n) ε {0, 1}: ri(n)=1 if the user clicked on the ad i, 0 if the user didn’t. The goal of the algorithm will be to maximize the reward. Another analogy is that of a doctor choosing between experimental treatments for a series of seriously ill patients. Each action selection is a treatment selection, and each reward is the survival or well-being of the patient.
 
+- **Example Code for Random Selection for Ads**
+```python
+#random generator we need
+N=10000
+adscount=10
+reward=0
+selectedads=[]
+total=0
+for n in range(0,N):
+    #can click one of ten ads
+    ad=random.randrange(adscount)
+    #hold in a list in which advertisement selected on the row
+    selectedads.append(ad)
+    #get the value of adv to get the reward
+    reward=data.values[n,ad]
+    #calculate the total reward
+    total=total+reward
+    
+#historgram of selected ads
+plt.hist(selectedads)
+plt.show()
+```
+
+
 ## One-Hot-Encoding
 - Categorical data are commonplace in many Data Science and Machine Learning problems but are usually more challenging to deal with than numerical data.
 -One of the most common ways to make this transformation is to **one-hot encode** the categorical features, especially when there does not exist a natural ordering between the categories (e.g. a feature ‘City’ with names of cities such as ‘London’, ‘Lisbon’, ‘Berlin’, etc.). For each unique value of a feature (say, ‘London’) one column is created (say, ‘City_London’) where the value is 1 if for that instance the original feature takes that value and 0 otherwise.
