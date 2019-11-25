@@ -51,8 +51,10 @@
 - **Convolutional Neural Networks (CNN)** will be under **Artificial Intelligence Repo (AI)** 
 - **Computer Vision** , **Self Autonomous Driving** with Tensorflow-Keras & Computer Vision & Deep Learning Repos will be also shared 
 - **Kubernates** repo will be also shared 
-- You can also check out Java Spring Framework series which will include **Spring Core,Spring MVC,Spring Boot** repo under
+- You can also check out **Java Spring Framework** series which will include **Spring Core,Spring MVC,Spring Boot** repo under
 [Java Spring Framework Repo](https://github.com/ozanyldzgithuboffical/Spring)
+- You can also check out **Natural Language Processing (NLP)** series which will include **Enterance to DDI World**,**Sparce Matrix & Spelling Signs**,**Big &.Small Letters**,**Stop Words**,**Stemmer**,**CounterVectorizer**,**Classification**
+[Natural Language Processing Repo](https://github.com/ozanyldzgithuboffical/NLP-Natural-Language-Processing-)
 - **Spring Microservices with Spring Cloud** repo will be also available later 
 
 ## About the Repo
