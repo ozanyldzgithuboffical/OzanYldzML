@@ -12,6 +12,19 @@
 2- Calculate **beta distribution** using ones and zeros and update max thompson value
 3- Calculate the one which has highest beta value
 
+- **Example Code**
+```python
+if (clickcount[i] > 0) :
+            average=rewards[i]/clickcount[i]
+            delta=math.sqrt(3/2*math.log(n)/clickcount[i])
+            ucb=average+delta
+        else:
+            ucb=N*10
+        if max_ucb<ucb:
+            max_ucb=ucb
+            ad=i
+```
+
 ## One-Hot-Encoding
 - Categorical data are commonplace in many Data Science and Machine Learning problems but are usually more challenging to deal with than numerical data.
 -One of the most common ways to make this transformation is to **one-hot encode** the categorical features, especially when there does not exist a natural ordering between the categories (e.g. a feature ‘City’ with names of cities such as ‘London’, ‘Lisbon’, ‘Berlin’, etc.). For each unique value of a feature (say, ‘London’) one column is created (say, ‘City_London’) where the value is 1 if for that instance the original feature takes that value and 0 otherwise.
