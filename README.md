@@ -45,14 +45,6 @@
   - A/B Test
   7. **Upper Confidence Bound Approach**
   8. **Thompson Sampling**
-  9. **Natural Language Processing (NLP)**
-  - Enterance to DDI World
-  - Sparce Matrix & Spelling Signs
-  - Big &.Small Letters
-  - Stop Words
-  - Stemmer
-  - CounterVectorizer
-  - Classification
   
 ## Announcement
 - Overview of Deep Learning, **Dimension Reduction** , **Model Selection** , **XGBoot** topics will be under **Deep Learning Repo** 
