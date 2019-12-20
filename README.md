@@ -56,6 +56,8 @@
 - You can also check out **Natural Language Processing (NLP)** series which will include **Enterance to DDI World**,**Sparce Matrix & Spelling Signs**,**Big &.Small Letters**,**Stop Words**,**Stemmer**,**CounterVectorizer**,**Classification**
 [Natural Language Processing Repo](https://github.com/ozanyldzgithuboffical/NLP-Natural-Language-Processing-)
 - **Spring Microservices with Spring Cloud** repo will be also available later 
+- **Computer Vision Repo on Deep Learning** repo is available
+[Computer Vision Repo on Deep Learning](https://github.com/ozanyldzgithuboffical/ComputerVisiononDeepLearning)
 
 ## About the Repo
 - This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of machine learning and intelligent systems basis .
